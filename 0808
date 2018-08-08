@@ -1,0 +1,21 @@
+##
+
+
+grep Patent *.gb | awk -F ':' '{print $1}' | sort | uniq
+#
+cd /media/ht/ht_5T/Work/Projects/CC_n_HPV/Alpha_HPV_Project/HPV30_Detect/Seq/A6/30/GB
+ls -1 *.gb | wc -l # output, 53
+grep DEFINITION *.gb | grep Patent | wc -l # output, 21
+grep DEFINITION *.gb | grep Patent | awk -F ':' '{print $1}' | sort | uniq | wc -l # output, 21
+grep DEFINITION *.gb | grep Patent | awk -F ':' '{print $1}' | sort | uniq > Patent.list
+#
+mkdir GB_Patent
+cat *.list | xargs mv -t GB_Patent/
+#
+grep 'Patent' *.gb | awk -F ':' '{print $1}' | sort | uniq | xargs mv -t GB_Patent/
+#
+ls -1 *.gb | wc -l # output, 25
+#
+cd /media/ht/ht_5T/Work/Projects/CC_n_HPV/Alpha_HPV_Project/HPV30_Detect/Seq/A6/30/GB
+cat *.gb > HPV30_25.GB
+mv HPV30_25.GB HPV30_25.gb # /media/ht/ht_5T/Work/Projects/CC_n_HPV/Alpha_HPV_Project/HPV30_Detect/Seq/A6/30/GB/HPV30_25.gb
