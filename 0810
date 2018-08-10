@@ -15,3 +15,7 @@ cd /media/ht/ht_5T/Work/Funding/2017_重大专项/20180808_预算最终申报
 * [cron - How to restart every 30 minutes automatically? - Ask Ubuntu](https://askubuntu.com/questions/243546/how-to-restart-every-30-minutes-automatically)
 * [linux - How to cron run every 1 hour on ubuntu 9+? - Server Fault](https://serverfault.com/questions/256131/how-to-cron-run-every-1-hour-on-ubuntu-9)
 * [linux - making a command run once every hour - Super User](https://superuser.com/questions/139401/making-a-command-run-once-every-hour)
+
+$ xlsx2csv file.xlsx --all > all.csv
+$ xlsx2csv file.xlsx --all -p '' > all-no-delimiter.csv
+$ xlsx2csv file.xlsx -s 1 > sheet1.csv
