@@ -10,4 +10,25 @@
 
 ## Walking Dead
 
+```
 for i in *.mp4; do mv $i ${i:26:6}.mp4; done
+```
+
+### Season
+
+ed2k://|file|%E8%A1%8C%E5%B0%B8%E8%B5%B0%E8%82%89.The.Walking.Dead.S05E01.%E4%B8%AD%E8%8B%B1%E5%AD%97%E5%B9%95.WEB-HR.AAC.1024x576.x264.mp4|436708526|8f1491ffd171fd48d7af403a8492604b|h=2fs5en3prf2nwpgm5nbi2cwsr7ys6qwo|/
+ed2k://|file|%E8%A1%8C%E5%B0%B8%E8%B5%B0%E8%82%89.The.Walking.Dead.S05E02.%E4%B8%AD%E8%8B%B1%E5%AD%97%E5%B9%95.WEB-HR.AAC.1024x576.x264.mp4|429521680|118ec51c9b2f027c329ffd8aa825c28e|h=vfxsq2hh4s4p67qtzamzuvzentu6vhw7|/
+ed2k://|file|%E8%A1%8C%E5%B0%B8%E8%B5%B0%E8%82%89.The.Walking.Dead.S05E03.%E4%B8%AD%E8%8B%B1%E5%AD%97%E5%B9%95.WEB-HR.AAC.1024x576.x264.mp4|432099871|f22527751ec247d43d35954caa68eab6|h=6a6pedjxdfe4jdkmipk7i2sd46wpzfas|/
+ed2k://|file|%E8%A1%8C%E5%B0%B8%E8%B5%B0%E8%82%89.The.Walking.Dead.S05E04.%E4%B8%AD%E8%8B%B1%E5%AD%97%E5%B9%95.WEB-HR.AAC.1024x576.x264.mp4|429335449|25318a8fddbfb0b4966acabc6d6b6d62|h=ikhgqqns3o7svi26k7sq5gjuyvzw7ljs|/
+ed2k://|file|%E8%A1%8C%E5%B0%B8%E8%B5%B0%E8%82%89.The.Walking.Dead.S05E05.%E4%B8%AD%E8%8B%B1%E5%AD%97%E5%B9%95.WEB-HR.AAC.1024x576.x264.mp4|429294596|1323d7cb9f796b8c5dafbc07fa30600f|h=57yaesoqlak547b54ikbup4fga73565e|/
+ed2k://|file|%E8%A1%8C%E5%B0%B8%E8%B5%B0%E8%82%89.The.Walking.Dead.S05E06.%E4%B8%AD%E8%8B%B1%E5%AD%97%E5%B9%95.WEB-HR.AAC.1024x576.x264.mp4|428984355|8e36c1ef1396085168392dabf98d8bb2|h=npjm4owmf2nmuxdahfjwcki3i5rsjbnb|/
+ed2k://|file|%E8%A1%8C%E5%B0%B8%E8%B5%B0%E8%82%89.The.Walking.Dead.S05E07.%E4%B8%AD%E8%8B%B1%E5%AD%97%E5%B9%95.WEB-HR.AAC.1024x576.x264.mp4|429773781|33b503aee31ef2a975f4d0cb90757354|h=lg37ygduoj5gvks6kp63jwjapzr4xhxv|/
+ed2k://|file|%E8%A1%8C%E5%B0%B8%E8%B5%B0%E8%82%89.The.Walking.Dead.S05E08.%E4%B8%AD%E8%8B%B1%E5%AD%97%E5%B9%95.WEB-HR.AAC.1024x576.x264.mp4|429892821|5e748703f4a7d670890c52f529daa249|h=s6qb4nmp6lzd3yck7bf36cck47v2lqh3|/
+ed2k://|file|%E8%A1%8C%E5%B0%B8%E8%B5%B0%E8%82%89.The.Walking.Dead.S05E09.%E4%B8%AD%E8%8B%B1%E5%AD%97%E5%B9%95.WEB-HR.AAC.1024x576.x264.mp4|430813773|a85504e01c3fbeddb9965ffd2dbe4ba3|h=3xf7kohycwltlohrhifo4fmmbr3filww|/
+ed2k://|file|%E8%A1%8C%E5%B0%B8%E8%B5%B0%E8%82%89.The.Walking.Dead.S05E10.%E4%B8%AD%E8%8B%B1%E5%AD%97%E5%B9%95.WEB-HR.AAC.1024x576.x264.mp4|429764431|fc63607ac23b54ae4acfddd3a13ef189|h=t6e7vvvxirljj3qpywp5lt5vf3urqxj2|/
+ed2k://|file|%E8%A1%8C%E5%B0%B8%E8%B5%B0%E8%82%89.The.Walking.Dead.S05E11.%E4%B8%AD%E8%8B%B1%E5%AD%97%E5%B9%95.WEB-HR.AAC.1024x576.x264.mp4|430615601|21329293a34589d9b081a496e220331c|h=kxaqtxxd7f4qoctkts6bcglhlm4s3bxj|/
+ed2k://|file|%E8%A1%8C%E5%B0%B8%E8%B5%B0%E8%82%89.The.Walking.Dead.S05E12.%E4%B8%AD%E8%8B%B1%E5%AD%97%E5%B9%95.WEB-HR.AAC.1024x576.x264.mp4|429026850|3ad84f8af2a71607e0819d9d40a297b0|h=iolvg32wj77476c5thhtqhokkf5xj767|/
+ed2k://|file|%E8%A1%8C%E5%B0%B8%E8%B5%B0%E8%82%89.The.Walking.Dead.S05E13.%E4%B8%AD%E8%8B%B1%E5%AD%97%E5%B9%95.WEB-HR.AAC.1024x576.x264.mp4|428845531|36f3670777a17606ee36a2eed945fb48|h=c3ghbucbbhun4q24nn2ybptc4erzw6rw|/
+ed2k://|file|%E8%A1%8C%E5%B0%B8%E8%B5%B0%E8%82%89.The.Walking.Dead.S05E14.%E4%B8%AD%E8%8B%B1%E5%AD%97%E5%B9%95.WEB-HR.AAC.1024x576.x264.mp4|429429677|d3ad361aab3008f1b80c6e942ba1db11|h=45m7ba3y6kdpamrljikqzehbzoanok6x|/
+ed2k://|file|%E8%A1%8C%E5%B0%B8%E8%B5%B0%E8%82%89.The.Walking.Dead.S05E15.%E4%B8%AD%E8%8B%B1%E5%AD%97%E5%B9%95.WEB-HR.AAC.1024x576.x264.mp4|430409830|72825aba732b05c90a7642b0782930b6|h=axb4oky6f6vqlxeelrfqzv2dh6fksrc4|/
+ed2k://|file|%E8%A1%8C%E5%B0%B8%E8%B5%B0%E8%82%89.The.Walking.Dead.S05E16.WEB-HR.AAC.1024X576.x264.mp4|645976563|36f6fabd6ef6989af031ba4cdc78b582|h=wybamo7w7gwr2fed7mzxlbg2gc7uwugj|/
