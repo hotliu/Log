@@ -1,3 +1,4 @@
+
 ## Ten Minutes Mail
 
 - [Ten Minutes Mail](http://mail.bccto.me/)
@@ -19,6 +20,32 @@ for($i=1;$i -le 100;$i++)
     $sum+=$i
 }
 $sum
+#
+$sum=0
+$i=1
+for(;$i -le 100;)
+{
+    $sum+=$i
+    $i++
+}
+$sum
+#
+for($domain="";!($domain -like "www.*.*");$domain=Read-Host "Input domain")
+{
+    Write-Host -ForegroundColor "Green" "Please give a valid domain name."
+}
+Please give a valid domain name.
+Input domain: www
+Please give a valid domain name.
+Input domain: mossfly.com
+Please give a valid domain name.
+#
+for($file=[IO.File]::OpenText("c:autoexec.bat") ; !($file.EndOfStream);$line=$file.ReadLine() )
+{
+    $line;
+}
+$file.Close()
+REM Dummy file for NTVDM
 ```
 
 ## Walking Dead
