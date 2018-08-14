@@ -7,3 +7,7 @@
 
 * [14.04 - How to setup OpenVPN Client - Ask Ubuntu](https://askubuntu.com/questions/460871/how-to-setup-openvpn-client)
 * [How To Set Up an OpenVPN Server on Ubuntu 16.04 | DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-set-up-an-openvpn-server-on-ubuntu-16-04)
+
+## Walking Dead
+
+for i in *.mp4; do mv $i ${i:26:6}.mp4; done
