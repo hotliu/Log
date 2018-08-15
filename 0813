@@ -132,3 +132,4 @@ magnet:?xt=urn:btih:1bd0ba4dc9c892321668efe7b89fa518f832a0e1&tr=udp://9.rarbg.to
 magnet:?xt=urn:btih:520effe0f193819d6f20b02046a8f7541b19df22&tr=udp://9.rarbg.to:2710/announce&tr=udp://9.rarbg.me:2710/announce&tr=http://tr.cili001.com:8070/announce&tr=http://tracker.trackerfix.com:80/announce&tr=udp://open.demonii.com:1337&tr=udp://tracker.opentrackr.org:1337/announce&tr=udp://p4p.arenabg.com:1337&tr=wss://tracker.openwebtorrent.com&tr=wss://tracker.btorrent.xyz&tr=wss://tracker.fastcast.nz
 ed2k://|file|%E8%A1%8C%E5%B0%B8%E8%B5%B0%E8%82%89.The.Walking.Dead.S08E16.End.%E4%B8%AD%E8%8B%B1%E5%AD%97%E5%B9%95.HDTVrip.720P-%E4%BA%BA%E4%BA%BA%E5%BD%B1%E8%A7%86.mp4|580214176|c7d68959ab5832ec5e32e4551eea70a9|h=tagm74onm5lyl2wjzh7btcsgx7t6ucqx|/
 
+cat links.txt | xargs -L1 ed2k
