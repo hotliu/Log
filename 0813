@@ -54,12 +54,16 @@ REM Dummy file for NTVDM
 
 ```
 for i in *.mp4; do mv $i ${i:26:6}.mp4; done
+
 ```
 
 ### Season 5
 
 ```
 for i in *.mp4; do mv $i ${i:22:6}.mp4; done
+#
+cd /media/ht/ht_5T/Image_n_Movie/Movies/Walking_Dead
+for i in 行尸走肉*.mp4; do mv $i ${i:22:6}.mp4; done
 ```
 
 ed2k://|file|%E8%A1%8C%E5%B0%B8%E8%B5%B0%E8%82%89.The.Walking.Dead.S05E01.%E4%B8%AD%E8%8B%B1%E5%AD%97%E5%B9%95.WEB-HR.AAC.1024x576.x264.mp4|436708526|8f1491ffd171fd48d7af403a8492604b|h=2fs5en3prf2nwpgm5nbi2cwsr7ys6qwo|/
