@@ -10,17 +10,7 @@ sudo dpkg -i virtualbox-5.2_5.2.18-124319~Ubuntu~zesty_amd64.deb
 axel http://security.ubuntu.com/ubuntu/pool/main/libp/libpng/libpng12-0_1.2.54-1ubuntu1.1_amd64.deb
 sudo dpkg -i http://security.ubuntu.com/ubuntu/pool/main/libp/libpng/libpng12-0_1.2.54-1ubuntu1.1_amd64.deb
 
-## Walking Dead
 
-```
-cd /media/ht/Seagate_1T/Movies/Walking_Dead
-cd /home/ht/.aMule/Incoming
-
-mv -i /home/ht/.aMule/Incoming/*.*  /home/ht/Downloads
-i=/media/ht/Seagate_1T/Movies/Walking_Dead
-#
-for i in *.mp4; do mv $i ${i:22:6}.mp4; done
-mv /home/ht/Downloads/S??E*.mp4 /media/ht/Seagate_1T/Movies/Walking_Dead
 ```
 
 ## ReactOS
