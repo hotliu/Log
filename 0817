@@ -12,11 +12,16 @@ sudo dpkg -i http://security.ubuntu.com/ubuntu/pool/main/libp/libpng/libpng12-0_
 
 ## Walking Dead
 
+```
 cd /media/ht/Seagate_1T/Movies/Walking_Dead
 cd /home/ht/.aMule/Incoming
 
 mv -i /home/ht/.aMule/Incoming/*.*  /home/ht/Downloads
 i=/media/ht/Seagate_1T/Movies/Walking_Dead
+#
+for i in *.mp4; do mv $i ${i:22:6}.mp4; done
+mv /home/ht/Downloads/S??E*.mp4 /media/ht/Seagate_1T/Movies/Walking_Dead
+```
 
 ## ReactOS
 
