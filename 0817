@@ -1,5 +1,12 @@
+## Walking Dead
+
 cd /media/ht/Seagate_1T/Movies/Walking_Dead
 cd /home/ht/.aMule/Incoming
 
 mv -i /home/ht/.aMule/Incoming/*.*  /home/ht/Downloads
 i=/media/ht/Seagate_1T/Movies/Walking_Dead
+
+## ReactOS
+
+axel https://versaweb.dl.sourceforge.net/project/reactos/ReactOS/0.4.9/ReactOS-0.4.9-iso.zip
+axel https://versaweb.dl.sourceforge.net/project/reactos/ReactOS/0.4.9/ReactOS-0.4.9-iso.zip
