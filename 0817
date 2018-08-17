@@ -1,0 +1,5 @@
+cd /media/ht/Seagate_1T/Movies/Walking_Dead
+cd /home/ht/.aMule/Incoming
+
+mv -i /home/ht/.aMule/Incoming/*.*  /home/ht/Downloads
+i=/media/ht/Seagate_1T/Movies/Walking_Dead
