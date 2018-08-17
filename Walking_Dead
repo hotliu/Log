@@ -1,5 +1,16 @@
 ## Walking Dead
 
+```
+cd /media/ht/Seagate_1T/Movies/Walking_Dead
+cd /home/ht/.aMule/Incoming
+
+mv -i /home/ht/.aMule/Incoming/*.*  /home/ht/Downloads
+i=/media/ht/Seagate_1T/Movies/Walking_Dead
+#
+for i in *.mp4; do mv $i ${i:22:6}.mp4; done
+mv /home/ht/Downloads/S??E*.mp4 /media/ht/Seagate_1T/Movies/Walking_Dead
+```
+
 - [行尸走肉第五季 /全集The Walking Dead Season 5迅雷下载|爱美剧](https://22v.net/v/128/)
 
 ```
