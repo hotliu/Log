@@ -1,7 +1,11 @@
 ## House of Cards
 
 ```
-cd /media/ht/Seagate_1T/Movies/Walking_Dead
+cd /media/ht/Seagate_1T/Movies/House_of_Cards
+#
+pcs ls | awk '{print $5}' | grep '.mp4'
+#
+for i in `cat List.txt`; do pcs download $i ./`basename $i`; done
 #
 i=/resources/南怀瑾选集_典藏版_全12册
 mkdir ./`basename $i`
