@@ -1,3 +1,13 @@
+## House of Cards
+
+```
+cd /media/ht/Seagate_1T/Movies/Walking_Dead
+#
+i=/resources/南怀瑾选集_典藏版_全12册
+mkdir ./`basename $i`
+baidupcs synch -cdur ./`basename ${i}` ${i}
+
+```
 
 * [纸牌屋第四季/全集House of Cards Season 4迅雷下载|爱美剧](https://22v.net/v/37/)
 * [纸牌屋 第五季(House of Cards Season 5)迅雷下载|爱美剧](https://22v.net/v/3022/)
