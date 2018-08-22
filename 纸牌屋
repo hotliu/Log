@@ -12,6 +12,11 @@ for i in `cat List.txt`; do pcs download $i ./`basename $i`; done
 i=/resources/南怀瑾选集_典藏版_全12册
 mkdir ./`basename $i`
 baidupcs synch -cdur ./`basename ${i}` ${i}
+#
+for i in H.o.C.2013.*.mp4; do mv -i ${i} ${i:11:6}.mp4; done
+for i in H.o.Ca.2013.*.mp4; do mv -i ${i} ${i:12:6}.mp4; done
+for i in hoff.*.mp4; do mv -i ${i} ${i:5:6}.mp4; done
+
 
 ```
 
