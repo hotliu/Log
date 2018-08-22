@@ -1,6 +1,8 @@
 ## House of Cards
 
 ```
+cd /home/ht/.aMule/Incoming
+#
 cd /media/ht/Seagate_1T/Movies/House_of_Cards
 #
 pcs ls | awk '{print $5}' | grep '.mp4'
